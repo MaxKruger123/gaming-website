@@ -54,3 +54,26 @@ h1{
   .learnMoreButton:hover {
     background-color: rgb(33, 25, 51);
   }
+
+  @media screen and (max-width: 850px) {
+    h1{
+      font-size: 36px;
+    }
+
+    p{
+      font-size: 12px;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    h1{
+      margin-top: 60%;
+      font-size: 24px;
+    }
+
+    p{
+      font-size: 12px;
+    }
+
+   
+  }

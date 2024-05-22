@@ -1,5 +1,6 @@
 .imageGallery {  
-    display: flex;
+   
+    height: 10%;
     overflow-x: auto;
     padding: 10px 0; /* Optional: Add some padding around the images */
     white-space: nowrap; /* Prevent line breaks between images */
@@ -17,7 +18,7 @@
   }
   
   .galleryImage {
-    height: 250px; /* Set a fixed height for images */
+    
      width: 400px;
     z-index: 1;
     object-fit: cover;
@@ -29,7 +30,7 @@
     height: 250px; /* Set a fixed height for images */
     width: 400px;
     z-index: 2;
-    flex-shrink: 0; /* Prevent items from shrinking */
+    
     margin: 0; /* Remove any margin */
     padding: 0; /* Remove any padding */
     transition: opacity 0.3s, transform 0.3s;
@@ -45,6 +46,7 @@
   .galleryItem:hover::before {
     opacity: 0.5; /* Lower opacity of the overlay on hover */
     cursor: pointer;
+   
   }
   
   
@@ -85,32 +87,9 @@
   
   /* Media query for smaller screens */
   @media screen and (max-width: 805px) {
-    .figCaption {
-      transform: translate(-5%, 30%); /* Adjust translation for smaller screens */
+    .galleryItem{
+      height: 100px;
     }
   }
   
-  /* Media query for even smaller screens */
-  @media screen and (max-width: 540px) {
-    .figCaption {
-      transform: translate(-5%, 20%); /* Adjust translation for even smaller screens */
-    }
-  }
   
-  @media screen and (max-width: 500px) {
-    .figCaption {
-      transform: translate(-5%, 10%); /* Adjust translation for even smaller screens */
-    }
-  }
-  
-  @media screen and (max-width: 375px) {
-    .figCaption {
-      transform: translate(-5%, -8%); /* Adjust translation for even smaller screens */
-    }
-  }
-  
-  @media screen and (max-width: 330px) {
-    .figCaption {
-      transform: translate(-5%, 5%); /* Adjust translation for even smaller screens */
-    }
-  }

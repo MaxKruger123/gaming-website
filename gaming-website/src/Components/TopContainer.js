@@ -10,7 +10,7 @@ const TopContainer = () => {
         <figure>
           <img src={backgroundImage} alt="Background" className="backgroundImage" />
           <figcaption className="figCaption">
-            <h1>Bringing Fasntasy to Life!</h1>
+            <h1>Bringing Fantasy to Life!</h1>
             <p>Here we look at more than just games, we look at our players. <br></br>
                 Join us on our journey into exploring our players minds and the psychology <br></br>
                 behind the games we love most!</p>
