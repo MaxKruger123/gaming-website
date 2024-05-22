@@ -1,0 +1,116 @@
+.imageGallery {  
+    display: flex;
+    overflow-x: auto;
+    padding: 10px 0; /* Optional: Add some padding around the images */
+    white-space: nowrap; /* Prevent line breaks between images */
+    z-index: -1;
+    
+  }
+  
+  .imageGallery::-webkit-scrollbar-track {
+    background: rgba(33, 25, 51, 0.767); /* Color of the track */
+  }
+  
+  .imageGallery::-webkit-scrollbar-thumb {
+    background: rgba(33, 25, 51, 0.767); /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners for the scrollbar thumb */
+  }
+  
+  .galleryImage {
+    height: 250px; /* Set a fixed height for images */
+     width: 400px;
+    z-index: 1;
+    object-fit: cover;
+    transition: transform 0.3s;
+  }
+  
+  .galleryItem {
+    position: relative;
+    height: 250px; /* Set a fixed height for images */
+    width: 400px;
+    z-index: 2;
+    flex-shrink: 0; /* Prevent items from shrinking */
+    margin: 0; /* Remove any margin */
+    padding: 0; /* Remove any padding */
+    transition: opacity 0.3s, transform 0.3s;
+  }
+  
+  .galleryItem:hover {
+    
+    transform: scale(1.1);
+    z-index: 3;
+    cursor: pointer;
+  }
+  
+  .galleryItem:hover::before {
+    opacity: 0.5; /* Lower opacity of the overlay on hover */
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  
+  .galleryItem::before{
+  
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 25, 51, 0.767); /* Purple overlay */
+  
+    z-index: 1;
+  }
+  
+  
+  
+  .galleryItem figcaption{
+    z-index: 1;
+  }
+  
+  .galleryCaption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Amiko;
+    font-size: 24px;
+    text-align: center;
+    white-space: normal; 
+    
+  }
+  
+  /* Media query for smaller screens */
+  @media screen and (max-width: 805px) {
+    .figCaption {
+      transform: translate(-5%, 30%); /* Adjust translation for smaller screens */
+    }
+  }
+  
+  /* Media query for even smaller screens */
+  @media screen and (max-width: 540px) {
+    .figCaption {
+      transform: translate(-5%, 20%); /* Adjust translation for even smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .figCaption {
+      transform: translate(-5%, 10%); /* Adjust translation for even smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .figCaption {
+      transform: translate(-5%, -8%); /* Adjust translation for even smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 330px) {
+    .figCaption {
+      transform: translate(-5%, 5%); /* Adjust translation for even smaller screens */
+    }
+  }
