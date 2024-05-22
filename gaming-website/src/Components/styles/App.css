@@ -1,9 +1,21 @@
-
+body{
+  background-color: rgba(33, 25, 51, 0.950);
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 
 .main {
   position: relative;
-  width: 98%;
-  margin-left: 1%;
+  width: 100%;
+  
+  
+}
+
+
+.App{
+  width: 100vw;
+  
 }
 
 

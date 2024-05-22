@@ -1,0 +1,92 @@
+body{
+    width: 100%;
+    padding: 0 0;
+}
+
+.theory-page{
+    text-align: center;
+    margin-top: 10%;
+    color: white;
+}
+
+.essay{
+    max-width: 800px;
+    margin: 0 auto; /* Center the text container */
+}
+
+.reflections {
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the text container */
+  }
+
+p{
+    line-height: 30px;
+    font-family: QuickSand;
+}
+
+h1{
+    font-family: Amiko;
+}
+
+h2{
+    font-family: Amiko;
+}
+
+h3{
+    font-family: Amiko;
+}
+
+.ArtWork{
+    width: 50%;
+    height: auto;
+}
+
+.ArtWork2{
+    width: 50%;
+    height: auto;
+}
+
+@font-face {
+    font-family: "Amiko";
+    src: url("./Fonts/Amiko-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: "QuickSand";
+    src: url("./Fonts/Quicksand-VariableFont_wght.ttf");
+  }
+
+  @media screen and (max-width: 1400px) {
+    
+    .theory-page{
+        width: 60%;
+        text-align: center;
+        margin-left: 20%;
+    }
+   
+  }
+
+  @media screen and (max-width: 100px) {
+    .ArtWork{
+        width: 70%;
+        height: auto;
+    }
+    
+    .ArtWork2{
+        width: 70%;
+        height: auto;
+    }
+    
+  }
+
+  
+  @media screen and (max-width: 600px) {
+    
+    .theory-page{
+        width: 60%;
+        text-align: center;
+        margin-left: 20%;
+        margin-top: 30%;
+    }
+   
+  }

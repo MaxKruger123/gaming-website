@@ -17,6 +17,7 @@ h1{
     position: relative;
     height: 60vh;
     background-color: rgba(33, 25, 51, 0.5); /* Purple overlay */
+    margin-top: 5%;
   }
   
   .backgroundImage {
@@ -36,7 +37,7 @@ h1{
     margin-left: 10%;
     top: 100%;
     left: 1%;
-    transform: translate(-10%, 40%);
+    transform: translate(-10%, 20%);
     color: white;
   }
   
@@ -65,15 +66,20 @@ h1{
     }
   }
 
-  @media screen and (max-width: 375px) {
-    h1{
-      margin-top: 60%;
-      font-size: 24px;
+  @media screen and (max-width: 400px) {
+   
+
+    .figCaption{
+      transform: translate(-40%, 10%);
     }
 
-    p{
-      font-size: 12px;
-    }
+   
+  }
+
+  @media screen and (max-width: 377px) {
+   
+
+    
 
    
   }

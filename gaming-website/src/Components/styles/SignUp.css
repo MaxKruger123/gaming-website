@@ -11,7 +11,7 @@
   .colorPopLeft{
     
     position: absolute;
-    top: 45%;
+    top: 70%;
     left: 5%;
     border-radius: 150px;
     border: 10px solid white; /* Add border */
@@ -19,7 +19,7 @@
 
   .colorPopLeft2{
     position: absolute;
-    top: 68%;
+    top: 82%;
     border-radius: 150px;
     width: 10%;
     height: auto;
@@ -29,7 +29,7 @@
 
   .colorPopLeft3{
     position: absolute;
-    top: 45%;
+    top: 70%;
     border-radius: 150px;
     width: 6%;
     height: auto;
@@ -40,7 +40,7 @@
   .colorPopRight1{
     
     position: absolute;
-    top: 45%;
+    top: 70%;
     left: 80%;
     border-radius: 150px;
     border: 10px solid rgb(252, 244, 131); /* Add border */
@@ -48,7 +48,7 @@
   
   .colorPopRight2{
     position: absolute;
-    top: 68%;
+    top: 82%;
     border-radius: 150px;
     width: 10%;
     height: auto;
@@ -58,7 +58,7 @@
 
   .colorPopRight3{
     position: absolute;
-    top: 45%;
+    top: 70%;
     border-radius: 150px;
     width: 6%;
     height: auto;

@@ -1,18 +1,36 @@
 import React from 'react';
-import TopContainer from './TopContainer.js';
-import ImageGallery from './ImageGallery.js';
-import SignUp from './SignUp.js'
-import './styles/App.css';
+import { Routes, Route } from 'react-router-dom';
+import Header from './Header';
+import TopContainer from './TopContainer';
+import ImageGallery from './ImageGallery';
+import SignUp from './SignUp';
+import TheoryPage from './TheoryPage';
+import './styles/App.css'
+
 
 const App = () => {
   return (
     <div className="App">
-      <TopContainer />
+      <Header />
+      
       <main className="main">
-        <ImageGallery />
-        <SignUp />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/theory" element={<TheoryPage />} />
+          
+        </Routes>
       </main>
     </div>
+  );
+};
+
+const HomePage = () => {
+  return (
+    <>
+      <TopContainer />
+      <ImageGallery />
+      <SignUp />
+    </>
   );
 };
 
