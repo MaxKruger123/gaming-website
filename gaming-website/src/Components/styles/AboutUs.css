@@ -1,0 +1,76 @@
+.aboutUsPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    margin: 10%;
+    
+}
+
+.logo {
+    max-width: 250px;
+    height: auto;
+}
+
+.aboutContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 20px;
+    background-color: rgb(33, 25, 51);
+    border-radius: 50px;
+    
+}
+
+.textSection {
+    
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+}
+
+.textSection h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.textSection p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.imageSection {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageSection img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+    .aboutContainer {
+        flex-direction: column;
+    }
+
+    .textSection, .imageSection {
+        flex: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .textSection {
+        padding: 10px;
+    }
+}

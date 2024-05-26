@@ -5,6 +5,8 @@ import TopContainer from './TopContainer';
 import ImageGallery from './ImageGallery';
 import SignUp from './SignUp';
 import TheoryPage from './TheoryPage';
+import DesignPage from './DesignPage';
+import AboutUsPage from './AboutUs';
 import './styles/App.css'
 
 
@@ -17,6 +19,9 @@ const App = () => {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/theory" element={<TheoryPage />} />
+          <Route path="/design" element={<DesignPage />} />\
+          <Route path="/about" element={<AboutUsPage />} />
+          <Route component={NotFound} /> {/* Catch-all route for 404 */}
           
         </Routes>
       </main>
@@ -29,7 +34,9 @@ const HomePage = () => {
     <>
       <TopContainer />
       <ImageGallery />
-      <SignUp />
+      <div id="signUpSection">
+        <SignUp />
+      </div>
     </>
   );
 };

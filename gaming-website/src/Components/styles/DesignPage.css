@@ -1,0 +1,42 @@
+.designPage{
+    
+    
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto; /* Center the section horizontally */
+    margin-top: 5%;
+    color: white;
+    text-align: center;
+    min-height: 100vh; /* Ensure full height for vertical centering */
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Amiko";
+    src: url("./Fonts/Amiko-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: "QuickSand";
+    src: url("./Fonts/Quicksand-VariableFont_wght.ttf");
+  }
+
+h1{
+font-family: Amiko;
+}
+
+h2{
+    font-family: Amiko;
+    margin-top: 10%;
+}
+
+p{
+    font-family: QuickSand;
+}
+
+.designPage img{
+    max-width: 800px;
+    height: auto;
+}
