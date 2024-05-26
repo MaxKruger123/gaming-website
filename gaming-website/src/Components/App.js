@@ -7,7 +7,10 @@ import SignUp from './SignUp';
 import TheoryPage from './TheoryPage';
 import DesignPage from './DesignPage';
 import AboutUsPage from './AboutUs';
+import NoutFoundPage from './NotFound'
 import './styles/App.css'
+import NotFoundPage from './NotFound';
+
 
 
 const App = () => {
@@ -21,7 +24,7 @@ const App = () => {
           <Route path="/theory" element={<TheoryPage />} />
           <Route path="/design" element={<DesignPage />} />\
           <Route path="/about" element={<AboutUsPage />} />
-          <Route component={NotFound} /> {/* Catch-all route for 404 */}
+          <Route component={NotFoundPage} /> {/* Catch-all route for 404 */}
           
         </Routes>
       </main>
