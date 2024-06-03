@@ -36,10 +36,11 @@ const HomePage = () => {
   return (
     <>
       <TopContainer />
-      <ImageGallery />
+      {/* <ImageGallery />
       <div id="signUpSection">
         <SignUp />
-      </div>
+      </div>*/}
+      
     </>
   );
 };

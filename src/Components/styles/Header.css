@@ -3,9 +3,9 @@
     display: flex;    
     align-items: center;
     height: 7%;
-    background-color: rgb(33, 25, 51); /* Dark purple background */
+    background-color: rgba(0, 0, 0, 0); /* Dark purple background */
     color: white;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
     position: fixed;
     z-index: 3;
     width: 100vw;
