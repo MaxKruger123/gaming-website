@@ -27,37 +27,6 @@ body{
 
 
 
-/* Media query for smaller screens */
-@media screen and (max-width: 805px) {
-  .figCaption {
-    transform: translate(-5%, 30%); /* Adjust translation for smaller screens */
-  }
-}
-
-/* Media query for even smaller screens */
-@media screen and (max-width: 540px) {
-  .figCaption {
-    transform: translate(-5%, 20%); /* Adjust translation for even smaller screens */
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .figCaption {
-    transform: translate(-5%, 10%); /* Adjust translation for even smaller screens */
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .figCaption {
-    transform: translate(-5%, -8%); /* Adjust translation for even smaller screens */
-  }
-}
-
-@media screen and (max-width: 330px) {
-  .figCaption {
-    transform: translate(-5%, 5%); /* Adjust translation for even smaller screens */
-  }
-}
 
 
 

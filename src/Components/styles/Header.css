@@ -1,43 +1,52 @@
-/* src/styles/Header.css */
 .header {
-    display: flex;    
-    align-items: center;
-    height: 7%;
-    background-color: rgba(0, 0, 0, 0); /* Dark purple background */
-    color: white;
-    
-    position: fixed;
-    z-index: 3;
-    width: 100vw;
-    top: 0%;
-  }
-
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  align-items: flex-end; /* Align items to the right */
+  justify-content: center; /* Align items vertically centered */
+  height: 100vh; /* Set height to full viewport height */
+   
+  
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  right: 0;
+  padding: 20px; /* Add padding for spacing */
+}
   button{
     background: none;
     border: none;
     cursor: pointer;
   }
 
-  .navLinks  {
+  .navLinks {
     display: flex;
-    background: none;
-    border: none;
-    color: white;
-    text-decoration: none;    
-    font-family: 'Amiko', sans-serif;
-    font-size: 18px; /* Adjust the font size if needed */
+    flex-direction: column; /* Arrange links underneath one another */
+    align-items: flex-end; /* Align links to the right */
+    
+  }
+
+  .navLinks a {
+    color: rgb(255, 255, 255);
+    font-family: Azonix;
+    text-decoration: none;
+    font-family: Amiko;
+    font-size: 18px; /* Adjust font size if needed */
     cursor: pointer;
-    margin: 0 100px;
-    transition: color 0.3s ease; /* Smooth color transition */
-    gap: 100px;
-    padding-left: 50px;
+    transition: color 0.3s;
+    margin-bottom: 100%; /* Increase or decrease to change space between links */
   }
 
   
-  .navLinks button:hover {
-    color: #61dafb; /* New color on hover */
-   
+
+  .navLinks a.active {
+    color: #61dafb; /* Text color for active link */
   }
+  
+  .navLinks a:hover {
+    color: #61dafb; /* Light blue color on hover */
+  }
+  
+  
   
   .logo img {
     height: 50px;
@@ -46,53 +55,21 @@
     margin-left: 20%;
   }
   
-  
-  .navLinks a {
-    color: white;
-    text-decoration: none;
-    font-family: 'QuickSand', sans-serif;
-    transition: color 0.3s;
+  .logo {
+    margin-left: 20px; /* Adjust margin for logo spacing */
   }
+  
+  
+  
   
   .navLinks a:hover {
     color: #61dafb; /* Light blue color on hover */
   }
 
-  @media (max-width: 630px) {
-    .navLinks{
-        margin: 0px 0px;
-        margin-right: 50px;
-        
-    }
+  @font-face {
+    font-family: "Azonix";
+    src: url("./Fonts/Azonix.otf");
   }
 
-  @media (max-width: 460px) {
-    .navLinks {
-        
-        margin-right: 35px;
-        font-size: 12px;
-    }
-  }
-
-  @media (max-width: 430px) {
-    .navLinks {
-        margin-left: -5%;
-        margin-right: 0%;
-        font-size: 12px;
-    }
-
-    .logo img {
-        height: 25px;
-        width: auto;
-        border-radius: 60px;
-      }
-  }
-
-  @media (max-width: 400px) {
-    .navLinks {
-        gap: 20px;
-    }
-
-    
-  }
+ 
   
