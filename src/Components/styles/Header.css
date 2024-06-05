@@ -1,75 +1,42 @@
+/* Header.css */
+@font-face {
+  font-family: "Proc";
+  src: url("./Fonts/ProcrastinatingPixie-WyVOO.ttf");
+}
+
 .header {
   display: flex;
-  flex-direction: column; /* Arrange items vertically */
-  align-items: flex-end; /* Align items to the right */
-  justify-content: center; /* Align items vertically centered */
-  height: 100vh; /* Set height to full viewport height */
-   
-  
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  height: 100vh;
+  font-family: Quicksand;
   position: fixed;
   z-index: 3;
   top: 0;
   right: 0;
-  padding: 20px; /* Add padding for spacing */
+  padding: 20px;
 }
-  button{
-    background: none;
-    border: none;
-    cursor: pointer;
-  }
 
-  .navLinks {
-    display: flex;
-    flex-direction: column; /* Arrange links underneath one another */
-    align-items: flex-end; /* Align links to the right */
-    
-  }
+.navLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 10%;
+}
 
-  .navLinks a {
-    color: rgb(255, 255, 255);
-    font-family: Azonix;
-    text-decoration: none;
-    font-family: Amiko;
-    font-size: 18px; /* Adjust font size if needed */
-    cursor: pointer;
-    transition: color 0.3s;
-    margin-bottom: 100%; /* Increase or decrease to change space between links */
-  }
+.navLinks a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s ease; /* Add transition effect */
+  margin-bottom: 110%;
+}
 
-  
+.navLinks a:hover{
+transform: scale(1.2);
+}
 
-  .navLinks a.active {
-    color: #61dafb; /* Text color for active link */
-  }
-  
-  .navLinks a:hover {
-    color: #61dafb; /* Light blue color on hover */
-  }
-  
-  
-  
-  .logo img {
-    height: 50px;
-    border-radius: 60px;
-    border: none;
-    margin-left: 20%;
-  }
-  
-  .logo {
-    margin-left: 20px; /* Adjust margin for logo spacing */
-  }
-  
-  
-  
-  
-  .navLinks a:hover {
-    color: #61dafb; /* Light blue color on hover */
-  }
-
-  @font-face {
-    font-family: "Azonix";
-    src: url("./Fonts/Azonix.otf");
-  }
-
- 
-  
+.navLinks a.active {
+  text-decoration: underline;
+}

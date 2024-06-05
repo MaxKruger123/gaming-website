@@ -1,10 +1,13 @@
+// Header.js
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import './styles/Header.css';
 import Logo from './styles/Images/Logo.png';
 import slides from './Slides';
 
 const Header = () => {
+  const location = useLocation();
+
   const [currentSlide, setCurrentSlide] = useState(0); // Assuming initial slide is 0
 
   useEffect(() => {
@@ -19,9 +22,11 @@ const Header = () => {
     <header className="header">
       
       <nav className="navLinks">
-        <Link to="/design" className={currentSlide === 0 ? slides[0].className : ''}>Design</Link>
-        <Link to="/theory" className={currentSlide === 1 ? slides[1].className : ''}>Theory</Link>
-        <Link to="/about" className={currentSlide === 2 ? slides[2].className : ''}>About</Link>
+        <Link to="/" className={location.pathname === '/' ? 'active' : ''}>HOME</Link>
+        <Link to="/design" className={location.pathname === '/design' ? 'active' : ''}>DESIGN</Link>
+        <Link to="/theory" className={location.pathname === '/theory' ? 'active' : ''}>THEORY</Link>
+        <Link to="/about" className={location.pathname === '/about' ? 'active' : ''}>ABOUT</Link>
+        <Link to="/profile" className={location.pathname === '/about' ? 'active' : ''}>PROFILE</Link>
       </nav>
     </header>
   );
