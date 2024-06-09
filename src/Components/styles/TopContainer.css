@@ -161,7 +161,7 @@ h1 {
   display: flex; 
   margin: auto;
   flex-direction: column; 
- 
+  align-items: center;
   
   
 }
@@ -174,16 +174,51 @@ h1 {
 
 .trailer1 {
   display: flex;
+  text-align: center;
+  margin-top: 10%;
   gap: 150px;
   align-items: center;
-  width: 100%;
+  width: 80%;
   padding: 20px;
-  margin-top: 5%;
+  
+  transition: transform 0.3s ease;
+ color: rgb(0, 0, 0);
+padding-bottom: 50px;
+ border-bottom: 2px solid black;
 }
 
-.text{
-  margin-left: 15%;
+.trailer2 {
+  display: flex;
+  text-align: center;
+  margin-top: 10%;
+  gap: 150px;
+  align-items: center;
+  width: 80%;
+  padding: 20px;
+  margin-top: 2%;
+  transition: transform 0.3s ease;
+ color: rgb(0, 0, 0);
+padding-bottom: 50px;
+ border-bottom: 2px solid black;
 }
+
+.trailer3 {
+  display: flex;
+  text-align: center;
+  margin-top: 10%;
+  gap: 150px;
+  align-items: center;
+  width: 80%;
+  padding: 20px;
+  margin-top: 2%;
+  transition: transform 0.3s ease;
+ color: rgb(0, 0, 0);
+ padding-bottom: 50px;
+ 
+}
+
+
+
 
 .video{
   
@@ -197,9 +232,38 @@ h1 {
 
 .trailer1 iframe:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 20px 10px rgba(111, 0, 255, 0.8);
+  box-shadow: 0 0 20px 10px rgba(255, 0, 0, 0.986);
+}
+
+.trailer2 iframe {
+  
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.trailer2 iframe:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px 10px rgba(4, 0, 228, 0.986);
+}
+
+.trailer3 iframe {
+  
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.trailer3 iframe:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px 10px rgba(228, 186, 0, 0.986);
 }
 
 .trailer1 h2{
   color: rgb(0, 0, 0);
 }
+
+.trailer2 h2{
+  color: rgb(0, 0, 0);
+}
+
+.trailer3 h2{
+  color: rgb(0, 0, 0);
+}
+

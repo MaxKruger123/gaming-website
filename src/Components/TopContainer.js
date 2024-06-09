@@ -68,13 +68,57 @@ const TopContainer = () => {
 
         <section className="trailer1">
           <div className="text">
-          <h2>Overlay Content</h2>
-          <p>This content will scroll over the slides.</p>
+          <h2>AC: Shadows Reveal</h2>
+          <p>Live the intertwined stories of Naoe, an adept shinobi Assassin from Iga Province, and Yasuke, 
+            the powerful African samurai of historical legend. Against the backdrop of the turbulent late 
+            Sengoku period, this remarkable duo will discover their common destiny as they usher in a new era for Japan. Releasing 15 November on Xbox, Playstation and PC.</p>
           </div>
           <div className="video">
           <iframe width="560" 
           height="315" 
           src="https://www.youtube.com/embed/vovkzbtYBC8?si=t1Q43RT9xz3zKi-f" 
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin" 
+          allowfullscreen
+          ></iframe>
+            </div>
+        </section>
+
+        <section className="trailer2">
+        <div className="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/uc66OGGtNMo?si=8n78_ox3XwaQMm7s" title="YouTube video player" frameborder="0" allow="accelerometer; 
+        autoplay; 
+        clipboard-write; 
+        encrypted-media; 
+        gyroscope; 
+        picture-in-picture; 
+        web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+          <div className="text">
+          <h2>Star Wars: Outlaws</h2>
+          <p>Set in the one-year gap between the events of 1980's Empire Strikes Back and 1983's Return of the Jedi
+            , the single-narrative game follows Kay Vess (Humberly González), a plucky street thief from Canto Bight, 
+            and her Merqaal sidekick Nix.</p>
+          </div>
+          
+        </section>
+
+        <section className="trailer3">
+          <div className="text">
+          <h2>Shadow of Erdtree</h2>
+          <p>The Land of Shadow.
+              A place obscured by the Erdtree.
+              Where the goddess Marika first set foot.
+              A land purged in an unsung battle. Set ablaze by Messmer’s flame.
+              It was to this land that Miquella departed.
+              Divesting himself of his flesh, his strength, his lineage.
+              Of all things Golden.</p>
+          </div>
+          <div className="video">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/a8k8R0Q2ubY?si=d2ClkX8ICd0mShS_" 
           title="YouTube video player" 
           frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
