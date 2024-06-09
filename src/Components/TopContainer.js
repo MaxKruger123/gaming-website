@@ -58,15 +58,35 @@ const TopContainer = () => {
 
       <div className="relativeContainer"></div>
 
+          
+
       <div className="scrollOverlay">
-        
+
+        <div className="overlayContainer">
+
+      <h1 className="heading">Latest Games Trailers</h1>
+
+        <section className="trailer1">
+          <div className="text">
           <h2>Overlay Content</h2>
           <p>This content will scroll over the slides.</p>
-        
+          </div>
+          <div className="video">
+          <iframe width="560" 
+          height="315" 
+          src="https://www.youtube.com/embed/vovkzbtYBC8?si=t1Q43RT9xz3zKi-f" 
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin" 
+          allowfullscreen></iframe>
+            </div>
+        </section>
+
+        </div>
+
       </div>
-      <div className="extraContent">
-        <p>Extra content to enable scrolling. Add more content here to make the page scrollable.</p>
-      </div>
+      
     </div>
   );
 };

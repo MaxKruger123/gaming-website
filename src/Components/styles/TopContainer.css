@@ -15,8 +15,7 @@ div{
 
 body, html {
   margin: 0;
-  padding: 0;
-  overflow-x: hidden;
+  padding: 0;  
   width: 100%;
   height: 100%;
 }
@@ -142,25 +141,65 @@ h1 {
 
 .scrollOverlay {
   position: relative;
-  width: 100%;
+  color: rgb(0, 0, 0);
+  width: 100vw;
   background: rgb(255, 255, 255);
   z-index: 3;
-  justify-content: center;
+  align-content: center;
   align-items: center;
-  height: 100vh;
+  justify-content: center;
+  height: 200vh;
+  text-align: center;
+  background-image: url('./Images/WhiteTextureBG.jpg'); 
+  background-repeat: repeat; 
+  background-size: 100%;
 }
 
-.overlayContent {
-  position: absolute;
-  background: white;
-  
+.overlayContainer{
+  width: 80%;
+  height: 100%;
+  display: flex; 
+  margin: auto;
+  flex-direction: column; 
  
   
-  width:80%;
+  
 }
 
-.extraContent {
+
+
+.scrollOverlay h1{
+  margin-top: 5%;
+}
+
+.trailer1 {
+  display: flex;
+  gap: 150px;
+  align-items: center;
+  width: 100%;
   padding: 20px;
-  background: #f0f0f0;
-  height: 100vh;
+  margin-top: 5%;
+}
+
+.text{
+  margin-left: 15%;
+}
+
+.video{
+  
+  border-radius: 15px;
+}
+
+.trailer1 iframe {
+  
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.trailer1 iframe:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px 10px rgba(111, 0, 255, 0.8);
+}
+
+.trailer1 h2{
+  color: rgb(0, 0, 0);
 }
