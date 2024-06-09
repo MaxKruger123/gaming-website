@@ -59,10 +59,10 @@ const TopContainer = () => {
       <div className="relativeContainer"></div>
 
       <div className="scrollOverlay">
-        <div className="overlayContent">
+        
           <h2>Overlay Content</h2>
           <p>This content will scroll over the slides.</p>
-        </div>
+        
       </div>
       <div className="extraContent">
         <p>Extra content to enable scrolling. Add more content here to make the page scrollable.</p>
