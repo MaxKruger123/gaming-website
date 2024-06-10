@@ -10,6 +10,7 @@ import AboutUsPage from './AboutUs';
 import NoutFoundPage from './NotFound'
 import './styles/App.css'
 import NotFoundPage from './NotFound';
+import BlogPost1 from './Blog1'
 
 
 
@@ -24,6 +25,7 @@ const App = () => {
           <Route path="/theory" element={<TheoryPage />} />
           <Route path="/design" element={<DesignPage />} />\
           <Route path="/about" element={<AboutUsPage />} />
+          <Route path="/blog1" element={<BlogPost1 />} />
           <Route component={NotFoundPage} /> {/* Catch-all route for 404 */}
           
         </Routes>

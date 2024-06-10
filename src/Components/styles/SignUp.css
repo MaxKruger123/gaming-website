@@ -1,133 +1,94 @@
 /* src/styles/SignUp.css */
+
 .signUpContainer {
-    padding: 20px;
-    background-color: rgb(14, 8, 26);
-    
-    margin-top: 20px;
-    border-radius: 8px;
-  }
-  
+  position: relative; /* Required for positioning the pseudo-element */
+  padding: 20px;
+  width: 60%;
+  margin-top: 20px;
+  border-radius: 8px;
+  padding-bottom: 5%;
+  z-index: 1;
+  overflow: hidden; /* Ensures the pseudo-element does not overflow */
+}
 
-  .colorPopLeft{
-    
-    position: absolute;
-    top: 70%;
-    left: 5%;
-    border-radius: 150px;
-    border: 10px solid white; /* Add border */
-  }
+.signUpContainer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./Images/SignUpBG.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(5px); /* Adjust the blur intensity as needed */
+  z-index: -1; /* Place the pseudo-element behind the form content */
+}
 
-  .colorPopLeft2{
-    position: absolute;
-    top: 82%;
-    border-radius: 150px;
-    width: 10%;
-    height: auto;
-    left: 28%;
-    border: 10px solid rgb(10, 134, 97);
-  }
+.inFrontForm {
+  position: relative;
+  z-index: 1; /* Ensure the form content is above the blurred background */
+}
 
-  .colorPopLeft3{
-    position: absolute;
-    top: 70%;
-    border-radius: 150px;
-    width: 6%;
-    height: auto;
-    left: 23%;
-    border: 10px solid rgb(62, 12, 104);
-  }
+h2 {
+  color: white;
+  font-size: 42px;
+  margin: 4%;
+}
 
-  .colorPopRight1{
-    
-    position: absolute;
-    top: 70%;
-    left: 80%;
-    border-radius: 150px;
-    border: 10px solid rgb(252, 244, 131); /* Add border */
-  }
-  
-  .colorPopRight2{
-    position: absolute;
-    top: 82%;
-    border-radius: 150px;
-    width: 10%;
-    height: auto;
-    left: 61%;
-    border: 10px solid rgb(10, 134, 37);
-  }
+.LoggedInMessage {
+  font-size: 32px;
+}
 
-  .colorPopRight3{
-    position: absolute;
-    top: 70%;
-    border-radius: 150px;
-    width: 6%;
-    height: auto;
-    left: 69%;
-    border: 10px solid rgb(17, 100, 121);
-  }
+.signUpForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  z-index: 3;
+}
 
-  h2{
-    color: white;
-    font-size: 42px;
-  }
+.formGroup {
+  margin-bottom: 15px;
+}
 
-  .LoggedInMessage{
-    font-size: 32px;
-  }
-  
-  .signUpForm {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .formGroup {
-    margin-bottom: 15px;
-  }
-  
-  .formGroup label {
-    display: block;
-    margin-bottom: 5px;
-    color: white;
-    font-family: 'QuickSand', sans-serif;
-  }
-  
-  .formGroup input {
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    width: 100%;
-    max-width: 300px;
-  }
-  
-  .signUpButton {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .signUpButton:hover {
-    background-color: rgb(33, 25, 51);
-  }
-  
-  .thankYouMessage {
-    padding: 20px;
-    text-align: center;
-    color: white;
-    font-family: 'QuickSand', sans-serif;
-  }
-  
-  .userIcon {
-    margin-top: 20px;
-    width: 100px;
-  }
-  
-  @media (max-width: 1500px) {
-    .colorPopLeft, .colorPopRight1,.colorPopLeft2, .colorPopRight2, .colorPopLeft3, .colorPopRight3 {
-      display: none; /* Hide images on smaller screens */
-    }
-  }
+.formGroup label {
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+  font-family: 'QuickSand', sans-serif;
+}
+
+.formGroup input {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.signUpButton {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.signUpButton:hover {
+  background-color: rgb(33, 25, 51);
+}
+
+.thankYouMessage {
+  padding: 20px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: 'QuickSand', sans-serif;
+}
+
+.userIcon {
+  margin-top: 20px;
+  width: 100px;
+}

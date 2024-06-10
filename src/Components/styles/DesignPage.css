@@ -6,11 +6,12 @@
     padding: 20px;
     max-width: 800px;
     margin: 0 auto; /* Center the section horizontally */
-    margin-top: 5%;
-    color: white;
+    
+    color: rgb(255, 255, 255);
     text-align: center;
     min-height: 100vh; /* Ensure full height for vertical centering */
     box-sizing: border-box;
+
 }
 
 @font-face {
@@ -23,16 +24,25 @@
     src: url("./Fonts/Quicksand-VariableFont_wght.ttf");
   }
 
-h1{
+.designPage h1{
 font-family: Amiko;
+color: rgb(0, 0, 0);
 }
 
-h2{
+.designPage h2{
     font-family: Amiko;
     margin-top: 10%;
+    color: rgb(0, 0, 0);
 }
 
-p{
+.designPage h3{
+    font-family: Amiko;
+    margin-top: 10%;
+    color: rgb(0, 0, 0);
+}
+
+.designPage p{
+    color: black;
     font-family: QuickSand;
 }
 

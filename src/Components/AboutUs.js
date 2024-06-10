@@ -1,7 +1,8 @@
 import React from 'react';
 import './styles/AboutUs.css'
 import Logoo from './styles/Images/Logo.png'
-import Physch from './styles/Images/Phych.jpg'
+import gif from './styles/Images/gaming-game-on.gif'
+import SignUp from './SignUp';
 
 
 
@@ -13,15 +14,19 @@ const AboutUsPage = () => {
 
         <section className="aboutContainer">
             <div className="textSection">
-                <h1>About Us!</h1>
-                <p>Here we prioritize our players by analyzing whats going on behind the scenes! Our focus is on finding our what makes players tick! Thanks to
-                    phychology we are able to find out exactly how games are created in order to sway our player in certin directions whilst maintaining the fun!
+                <h1 className="Heading1">About Us!</h1>
+                <p>Here at Game we bring the latest news on the latest games! Whether its trailers, controversy, or HUGE updates, we are on it. 
+                    If you like what we do we would appreciate you signing up to our page so you never miss anything in games.
                 </p>
             </div>
             <div className="imageSection">
-                <img src={Physch} alt="About Us Image"/>
+                <img src={gif} alt="About Us Image"/>
             </div>
         </section>
+
+        
+        <SignUp />
+      
     </section>
 
     );

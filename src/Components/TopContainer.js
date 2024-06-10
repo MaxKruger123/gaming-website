@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './styles/TopContainer.css';
 import slides from './Slides';
+import blog1Image from './styles/Images/Balance.png'
 
 const TopContainer = () => {
   const [content, setContent] = useState(slides[0]);
@@ -81,7 +83,7 @@ const TopContainer = () => {
           frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
           referrerpolicy="strict-origin-when-cross-origin" 
-          allowfullscreen
+          allowfullscreen="true"
           ></iframe>
             </div>
         </section>
@@ -95,7 +97,7 @@ const TopContainer = () => {
         gyroscope; 
         picture-in-picture; 
         web-share" 
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="true"></iframe>
             </div>
           <div className="text">
           <h2>Star Wars: Outlaws</h2>
@@ -123,9 +125,25 @@ const TopContainer = () => {
           frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
           referrerpolicy="strict-origin-when-cross-origin" 
-          allowfullscreen></iframe>
+          allowfullscreen="true"></iframe>
             </div>
         </section>
+
+        <h2 className="blogsHeading">Latest Blogs</h2>
+          <div id="blogPosts" className="blogLinks">
+            
+            <div className='blog1'>
+            <Link to="/blog1">
+              <div className="overlay">
+              
+
+              </div>
+            </Link>
+
+            </div>
+            
+           
+          </div>
 
         </div>
 
