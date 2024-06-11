@@ -1,61 +1,82 @@
 .csgo-section {
-    text-align: center;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 150vh; /* Adjust height as needed */
+}
 
-  .csgo-section h2{
-    text-align: center;
-    margin: 0;
-    
-  }
-  
-  .map-container {
-    position: relative;
-    display: inline-block;
-    margin-top: 20px;
-    width: 100%; /* Ensure the container is full width */
-    max-width: 800px; /* Optional: limit the maximum width */
-  }
-  
-  .map-image {
-    width: 100%;
-    height: auto;
-  }
-  
-  .marker {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background-color: gold;
-    border-radius: 50%;
-    cursor: pointer;
-    transform: translate(-50%, -50%); /* Center the marker on the point */
-  }
-  
-  .marker-info {
-    position: absolute;
-    background: rgba(0, 0, 0, 0.8);
-    color: #fff;
-    padding: 10px;
-    border-radius: 5px;
-    z-index: 100;
-    transform: translate(-100%, -100%); /* Adjust position to be above and to the left of the marker */
-    max-width: 300px; /* Optional: limit the maximum width of the info box */
-  }
-  
-  .close-button {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    background-color: transparent;
-    border: none;
-    color: white;
-    font-size: 18px;
-    cursor: pointer;
-  }
-  
-  .marker-info iframe {
-    margin-top: 10px;
-    width: 100%;
-    height: auto;
-  }
-  
+.csgo-section h2 {
+  text-align: center;
+  margin: 0;
+  color: black;
+}
+
+.csgo-text {
+  max-width: 800px; /* Optional: limit the maximum width */
+  margin: 0 auto 20px; /* Center horizontally with auto margins and add bottom margin */
+}
+
+.dropdown-container {
+  margin-bottom: 20px; /* Add some space below the dropdown */
+}
+
+.map-container {
+  position: relative;
+  padding: 20px 30px;
+  display: inline-block;
+  margin-top: 20px;
+  width: 100%; /* Ensure the container is full width */
+  max-width: 800px; /* Optional: limit the maximum width */
+}
+
+.map-dropdown {
+  width: 200px; 
+  height: 40px; 
+  font-size: 16px; 
+  padding: 5px; 
+}
+
+.map-image {
+  width: 100%;
+  height: auto;
+}
+
+.marker {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: gold;
+  border-radius: 50%;
+  cursor: pointer;
+  transform: translate(-50%, -50%); /* Center the marker on the point */
+}
+
+.marker-info {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 100;
+  transform: translate(-100%, -100%); /* Adjust position to be above and to the left of the marker */
+  max-width: 300px; /* Optional: limit the maximum width of the info box */
+}
+
+.close-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.marker-info iframe {
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+}

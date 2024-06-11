@@ -1,6 +1,10 @@
+.main{
+    width: 100vw;
+}
+
 .designPage{
     
-    
+    width: 100vw;
     justify-content: center;
     align-items: center;
     padding: 20px;

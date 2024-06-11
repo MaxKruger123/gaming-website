@@ -4,7 +4,7 @@ import HomeWireFrame from './styles/Images/NewHomePage.PNG'
 import HomeWireFrame2 from './styles/Images/NewHomePage2.PNG'
 import AboutUsWireFrame from './styles/Images/NewAboutUs.PNG'
 import TheoryWireFrame from './styles/Images/ThoeryPageWireFrame.PNG'
-import DesignWireFrame from './styles/Images/DesignPageWireFrame.PNG'
+import DesignWireFrame from './styles/Images/NewDesignPage.PNG'
 
 
 
@@ -62,13 +62,13 @@ const DesignPage = () => {
                 
 
                 <h3>Typography</h3>
-                <p>Our primary two fonts are Amiko and Quicksand. Amiko is used for navigation links and headings that are important,
-                    which provides a simple and legible Sand-serif style. QuickSand is mainly used for body's of text, providing a clean, rounded and friendly appearance.</p>
+                <p>Our three primary fonts are Amiko, Quicksand and Proc. Amiko is used for Headings and is a simple and clean font that is reaidble, even at samller sizes. 
+                    QuickSand is a geometric and rounded font. It is friendly and modern and is visually appealing. This is used for main body's of text. The final font Proc is used for navigaiton links in my header.
+                    The font feels futuristic and digital which matches the theme of my website.</p>
 
                 <h3>Navigation</h3>
-                <p>A fixed header is present throughout the different pages and ensures that navigation is always available to users, improving user-experience. 
-                    There is also a good amount of space used between navigation links which allows a clean and accessible look to the links. 
-                    This makes it easy to navigate for the user.
+                <p>For navigation I made a significant design decision which was to place the header to the right side of the page. This is uncoventional by design, however, it also gives a modern
+                    feel to my site and is creative. On Smaller screen sizes the header changes to a menu which the user can toggle off and on. This is to prevent screen clutter on smaller devices.
                 </p>
 
                 <h3>Layout</h3>
@@ -83,6 +83,15 @@ const DesignPage = () => {
                 <h3>Responsiveness</h3>
                 <p>Media queries are used for every page on the website ensuring that no matter the device used by the user, the website still creates a user-friendly experience and remains
                     aesthetically pleasing. This includes the translation of containers and changes in font sizes depending on the users device.
+                </p>
+
+                <h3>HomePage Reflection and Changes</h3>
+                <p>
+                    The intention of my homepage rework was to minimize information and get straight to the point but also to lure the user in and get them interested for the rest of my sites content.
+                    Reflecting on my previous homepage I feel that it was dull and too cluttered. This meant that there was little to no design flow and this greatly impacted the Users experience. By keeping my homepage
+                    simple and to the point. I ensure that the user has clarity and it is clear where they are and where they must go next.This is accomplished by using balance. The main image background of the homepage
+                    creates an simplistic feel but focuses on the text to the left. Then an animated arrow at the bottom of the page leads the user to scroll down. Throughout my pages I have also decided to use black and
+                    white contract for visibility and readability.
                 </p>
         </section>
 

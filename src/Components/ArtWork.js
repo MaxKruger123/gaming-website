@@ -21,15 +21,28 @@ const maps = [
 
   const markers = {
     Dust2: [
-      { top: '30%', left: '40%', text: 'Memorable Moment 1', videoEmbedCode: '<iframe width="560" height="315" src="https://www.youtube.com/embed/qFGpLdGEL9k?si=QGySOoL0XstbAapU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>' },
-      
+      { top: '35%', left: '47%', text: 'Inuman Reactions by Hiko!', videoEmbedCode: '<iframe width="560" height="315" src="https://www.youtube.com/embed/qFGpLdGEL9k?si=QGySOoL0XstbAapU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>' },
+      { top: '25%', left: '45%', text: 'Scream 1 tap Ace.', videoEmbedCode: '<iframe width="560" height="315" src="https://www.youtube.com/embed/M-xaT0DzpNM?si=bBnD6rtY_Y9wZ3R8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>' },
+      { top: '35%', left: '11%', text: 'Stewie2K MP9 Ace.', videoEmbedCode: '<iframe width="560" height="315" src="https://www.youtube.com/embed/cAz2lh9UlDM?si=eujRla-E6Msqu5lY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>' },
+      { top: '87%', left: '45%', text: 'Fnatic 4 AWP Hold', videoEmbedCode: '<iframe width="560" height="315" src="https://www.youtube.com/embed/asDtlvn7N5U?si=kt641PFxHOj-TZpW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>' },
+      { top: '13%', left: '26%', text: 'S1mple Fake Flash', videoEmbedCode: '<iframe width="560" height="315" src="https://www.youtube.com/embed/FuvMNVbuE1g?si=ssloAuvva8mzkyDr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>' },
+      { top: '12%', left: '14%', text: 'Shroud 3 second Ace', videoEmbedCode: '<iframe width="560" height="315" src="https://www.youtube.com/embed/xw6FKPvGrRo?si=IYg9xzvk2fn0MbO-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>' },
     ],
 
     Mirage: [
-        { top: '25%', left: '60%', text: 'Memorable Moment 1', videoEmbedCode: 'https://www.youtube.com/embed/VIDEO_ID' },
-        
+        { top: '16%', left: '27%', text: 'Coldzera jumping AWP', videoEmbedCode: '<iframe width="560" height="315" src="https://www.youtube.com/embed/cjOVXdarUTs?si=zGb3PhxEDN6jIdQi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>' },
+        { top: '59%', left: '52%', text: 'Cadian 1v4 Finals', videoEmbedCode: '<iframe width="560" height="315" src="https://www.youtube.com/embed/m2U1zkHdOP8?si=vg1A06vFTjLe0lNv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>' },
+        { top: '24%', left: '56%', text: 'Snax sneaky beaky.', videoEmbedCode: '<iframe width="560" height="315" src="https://www.youtube.com/embed/9WV1-AklbEQ?si=LuyTaaVManecFswi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>' },
+        { top: '52%', left: '49%', text: 'Dupreeh 2k Collat Clutch', videoEmbedCode: '<iframe width="560" height="315" src="https://www.youtube.com/embed/LzoHMDVrSaM?si=4OfpKLO4oHa-SCVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>' },
+        { top: '81%', left: '45%', text: 'Stewie2k pistol clip FPL', videoEmbedCode: '<iframe width="560" height="315" src="https://www.youtube.com/embed/LLvcGiTH48k?si=F4A9J-6ZlyBXOuSZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>' },
       ],
-      Inferno: [],
+      Inferno: [
+        { top: '25%', left: '43%', text: 'Stewie2k b hold major win', videoEmbedCode: '<iframe width="560" height="315" src="https://www.youtube.com/embed/ri5zxSy_9yM?si=kqJfV-Un9m6SRv50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>' },
+        { top: '23%', left: '60%', text: 'Happy with the one deag', videoEmbedCode: '<iframe width="560" height="315" src="https://www.youtube.com/embed/dg6TQy6pGfs?si=4gIvkT19GDJujJ9m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>' },
+        { top: '45%', left: '47%', text: 'friberg vs fnatic', videoEmbedCode: '<iframe width="560" height="315" src="https://www.youtube.com/embed/zqrSh-ULwiI?si=1zHG5o9rGaqHv450" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>' },
+        { top: '70%', left: '80%', text: 'KennyS noscope 1v3', videoEmbedCode: '<iframe width="560" height="315" src="https://www.youtube.com/embed/cSU1LMAsVwg?si=F0pbf3gtgNa8XeQV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>' },
+        { top: '55%', left: '90%', text: 'JW Ace', videoEmbedCode: '<iframe width="560" height="315" src="https://www.youtube.com/embed/stP0Owdfue4?si=FW1InZuAM0OzeTcR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>' },
+      ],
       Nuke: [],
       Overpass: [],
       Train: [],
@@ -39,38 +52,52 @@ const maps = [
 
 
   const ArtWorkPage = () => {
-    const [selectedMap, setSelectedMap] = useState(maps[0].name);
+    const [selectedMap, setSelectedMap] = useState(maps[0].name); //Sets default map to Dust 2
     const [selectedMarker, setSelectedMarker] = useState(null);
-    const [popupPosition, setPopupPosition] = useState({ top: '0', left: '0' });
-    const [popupVisible, setPopupVisible] = useState(false);
+    const [popupPosition, setPopupPosition] = useState({ top: '0', left: '0' });// Popup window to be set to be next to circle
+    const [popupVisible, setPopupVisible] = useState(false);// sets the popup window to not show by defualt, only when clicked
   
+    //used to change map
     const handleMapChange = (event) => {
       setSelectedMap(event.target.value);
-      setSelectedMarker(null); // Reset marker selection on map change
-      setPopupVisible(false); // Close popup when map changes
+      setSelectedMarker(null); 
+      setPopupVisible(false); 
     };
   
+    //used for pop up window when clicking on a circle marker
     const handleMarkerClick = (marker, event) => {
       const markerRect = event.target.getBoundingClientRect();
-      setPopupPosition({ top: `${markerRect.top + window.scrollY}px`, left: `${markerRect.left + window.scrollX}px` });
+      setPopupPosition({ top: `${markerRect.top + window.scrollY}px`, left: `${markerRect.left + window.scrollX}px` });// finds marker that was clicked on's position
       setSelectedMarker(marker);
-      setPopupVisible(true); // Show popup when marker is clicked
+      setPopupVisible(true); //endbales visibility of pop up window
     };
   
+    //handles when user presses on x to close window
     const handleClosePopup = () => {
-      setPopupVisible(false); // Close popup when close button is clicked
+      setPopupVisible(false); 
     };
   
+    //JSX
     return (
       <div className="csgo-section">
         <h2>CS:GO Maps</h2>
-        <select onChange={handleMapChange} value={selectedMap}>
-          {maps.map((map, index) => (
-            <option key={index} value={map.name}>{map.name}</option>
-          ))}
-        </select>
-  
-        <div className="map-container">
+        <div className="csgo-text">
+          <p>Although we here at game bring the latest news on the latest games. Sometimes it pays off to go back and reminisce on the past legendary gaming moments. 
+            This time we are looking at the history of e-sports in csgo. Counter strike has always been a staple in e-sports history and we want to celebrate it!
+            Check out our interactive artwork below. Choose the map you wish to view and then click on the small golden circles to check out the memorable clip from that position!</p>
+        </div>
+
+
+        <div className="dropdown-container">  {/*Container for drop down map menu*/ }
+          <select onChange={handleMapChange} value={selectedMap} className="map-dropdown"> {/*Sets map depending on what user selects*/ }
+            {maps.map((map, index) => ( 
+              <option key={index} value={map.name}>{map.name}</option> 
+            ))} {/*Iterates over maps and gives selection of different maps*/ }
+          </select>
+        </div>
+
+
+        <div className="map-container"> {/*Displays the image of the selected map*/ }
           <img src={maps.find(map => map.name === selectedMap).image} alt={selectedMap} className="map-image" />
           {markers[selectedMap].map((marker, index) => (
             <div
@@ -81,15 +108,18 @@ const maps = [
             ></div>
           ))}
         </div>
+
   
         {selectedMarker && popupVisible && (
-          <div className="marker-info" style={{ top: popupPosition.top, left: popupPosition.left }}>
-            <button className="close-button" onClick={handleClosePopup}>X</button>
+          <div className="marker-info" style={{ top: popupPosition.top, left: popupPosition.left }}> {/*Changes position of popup window to be next to marker*/ }
+            <button className="close-button" onClick={handleClosePopup}>X</button> {/*Button to close popup window*/ }
             <p>{selectedMarker.text}</p>
-            <div dangerouslySetInnerHTML={{ __html: selectedMarker.videoEmbedCode }} />
+            <div dangerouslySetInnerHTML={{ __html: selectedMarker.videoEmbedCode }} /> {/*Inserts RAW HTML of video embeds for memorable clips from youtube*/ }
           </div>
         )}
       </div>
+
+
     );
   };
     

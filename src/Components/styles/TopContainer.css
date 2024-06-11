@@ -333,5 +333,32 @@ padding-bottom: 50px;
   
 }
 
+.blog2{
+  width: 400px;
+  height: 300px;
+  background-size: cover;
+  background-image: url('./Images/Interactive.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  
+  transition: transform 0.3s ease-in-out, border-bottom 0.3s ease-in-out, border-left 0.3s ease-in-out;
+}
+
+.blog2:hover {
+  
+  transform: translateY(-20px);
+  
+}
+
+.blog2Image{
+  width: 10%;
+  height: 10%;
+ 
+  
+}
+
 
 

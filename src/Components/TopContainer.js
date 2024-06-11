@@ -3,43 +3,48 @@ import { Link } from 'react-router-dom';
 import './styles/TopContainer.css';
 import slides from './Slides';
 import blog1Image from './styles/Images/Balance.png'
+import blog2Image from './styles/Images/Balance.png'
 
 const TopContainer = () => {
   const [content, setContent] = useState(slides[0]);
 
+  // Created 5s times to rotate between 3 images for landingm page
   useEffect(() => {
     const interval = setInterval(() => {
-      const currentIndex = slides.findIndex(item => item === content);
-      setContent(slides[(currentIndex + 1) % slides.length]);
-    }, 5000);
+      const currentIndex = slides.findIndex(item => item === content); // finds index of current slide in the array
+      setContent(slides[(currentIndex + 1) % slides.length]); // updates state variable 'content' to the next slide in array 
+    }, 5000); // 5000 = 5s time interval
 
-    return () => clearInterval(interval);
+    return () => clearInterval(interval); // clears interval of 5s to restart it and prevents memory leaks :D
   }, [content]);
 
   // Dynamically set top position of slides
   useEffect(() => {
-    const handleScroll = () => {
-      const slideContainer = document.querySelector('.gallery');
-      const topContainer = document.querySelector('.topContainer');
-      const top = Math.max(window.pageYOffset - topContainer.offsetTop, 0);
+    const handleScroll = () => { // handles the upward scrolling effect 
+      const slideContainer = document.querySelector('.gallery'); // finds gallery
+      const topContainer = document.querySelector('.topContainer'); //  finds topContainer
+      const top = Math.max(window.pageYOffset - topContainer.offsetTop, 0); //finds the amount of distance scrolled past the .topContainer
       slideContainer.style.top = `${top}px`;
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll); // connects the handleScroll function to the scroll event
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('scroll', handleScroll); //removes listener
     };
   }, []);
 
+  // unused funtion
   const handleDotClick = (index) => {
     setContent(slides[index]);
   };
 
+  //JSX
   return (
     <div className="mainContainer">
       <section className="topContainer">
         <div className="gallery">
+          
           {slides.map((item, i) => (
             <div
               key={i}
@@ -134,11 +139,19 @@ const TopContainer = () => {
             
             <div className='blog1'>
             <Link to="/blog1">
-              <div className="overlay">
-              
+              <div className="overlay">              
 
               </div>
-            </Link>
+            </Link>            
+
+            </div>
+
+            <div className='blog2'>
+            <Link to="/blog2">
+              <div className="overlay">              
+
+              </div>
+            </Link>            
 
             </div>
             
