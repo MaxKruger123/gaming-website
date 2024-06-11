@@ -93,10 +93,10 @@ forward due to its innovative approach to collaborative art by each user placing
 In conclusion, r/place was created in 2017 by Josh Wardle as a way for the internet to create a<br></br>
 collaborative internet art piece.<br></br><br></br>
 Referencing:
-(No date a) R/place. Available at: https://www.reddit.com/r/place/ (Accessed: 26 April 2024).
+(No date a) R/place. Available at: https://www.reddit.com/r/place/ (Accessed: 26 April 2024).<br></br>
 (No date b) R/bluecorner. Available at: https://www.reddit.com/r/BlueCorner/ (Accessed: 26 April
-2024).
-McLuhan, M. (1964) Understanding media.
+2024).<br></br>
+McLuhan, M. (1964) Understanding media.<br></br>
 Querejazu, A. (2016) Encountering the pluriverse: Looking for alternatives in other worlds,
 Revista Brasileira de Política Internacional. Available at:
 https://www.scielo.br/j/rbpi/a/3pnFKpXVxnqS4vs5jBPwJXv/?lang=en#:~:text=Drawing
@@ -107,28 +107,44 @@ https://www.scielo.br/j/rbpi/a/3pnFKpXVxnqS4vs5jBPwJXv/?lang=en#:~:text=Drawing
       <section className="reflections">
         <h2>Art Work Prep</h2>
         <h3>Inspiration</h3>
-        <img src={ArtWork} alt="Image of Net Art Example" className="ArtWork"/>
+        <iframe className="videos" width="560" height="315" src="https://www.youtube.com/embed/_j6_Gk4GZo0?si=TOxRJlEAz_370m-m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <p>
-          The inspiration I have used for the artwork I wish to create is an algorithmic Net Art. An algorithm runs and outputs a set of different characters in a random pattern. <br></br>
-          I want to create something similar but my message within the art work is unique. My artwork will be called Trash and Treasure because depending on the audience, the artwork means something different.<br></br>
-          To an individual who may know how to code, they may see this and know that it is an algorithm of random letters. But to an individual who has no coding experience whatsoever, it may<br></br>
-          immediately put them off and they will have no idea what they are looking at. So the artwok can either be seen as treasure or trash depending on the viewer. However, there is more. <br></br>
-          Everytime the website is opened, I want the algorithm to regenerate the artwork, meaning that eveytime a user visits the page, it will look different. Within the algorithm I will also <br></br>
-          limit the amount of characters that the algorithm may print. So in theory if I let there only be 1's and 0's. In a matter of time and infinite possibilities, there is a time when the algorithm<br></br>
-          will print an perfect series of characters that will represent something that the untrained eye will understand. something like this:
-        </p>
-        <img src={NetArtWork} alt="Image of Net Art Example 2" className="ArtWork2"/>
-        <p>Kerr, D. (2015) The early disruptors: 7 masterpieces of ’90s net art everyone should know about, Artspace. Available at: https://www.artspace.com/magazine/art_101/art-tech/90s-net-art-52704 (Accessed: 23 May 2024). </p><br></br><br></br>
-        <p>In the above example we can see a woman lying down, but the artwork is made up of only 1's and 0's. So if we were somehow able to let my algorithm run an infinite amount of times<br></br>
-        eventually we would end up with something like this piece of net art. I find beauty in this impossibly possible circumstance. Maybe someone will find something on their first time opening the website<br></br>
-        , or maybe on their 500th! The above example comes from "Vuk Cosic" and the artworks name is Deep ASCII, 1998 (Kerr, 2015). He used the American Standard Code for Information Interchange or ASCII<br></br>
-        which translates english letters into binary integers. This artwork is my main inspiration for this task. My solution to create this artwork will be an algorithm that randomly generates<br></br>
-        a certain character (set by my limits). And then gkeep generating a character a certain amount f times per line. Then I need to specify how many lines I want. This way there is a neat balance<br></br>
-        between random and controlled chaos. I also am a fan of the green and black contrast which many see and immediately think of older movies such as 'The  Matrix' or are able to make the connection to coding.<br></br>
-        The code for the algorithm will be randomized so that each time the website starts up, the artwork will look completely different. In terms of technicaly concerns, I do not think that there is anything major.<br></br>
-        Due to the simplicity of the ArtWork, there should not be any major issues, however, this is able to change.
+          The inspiration of my artwork comes from mostly my own experiences in the esports world. Esports refers to the sport of gaming in which individuals compete in video
+          game competitions for fame, glory and money. Since the early years of 13 years of age I have been competing in CS:GO tournaments with teams from South Africa and this
+          made up majority of my childhood. The brief video above dives into the history of the video game CS:GO's rich easports history and the impact it had on some of the most
+          famous players lives. Although this website is all about the latest game news, sometimes its nice to reminisce on the past. Especially when the past has hidden gems everywhere!<br></br><br></br>
+
+          The history behind the Counter:Strike series has a deep routed connection with the internet. With the boom of the internet came the rise of esports with games quickly coming 
+          out with multiplayer modes where player could verse each other online. This sparked the competitive spirit that we all know in physical sports now into digital entertainment. 
+          The internet also came with new websites being created such as streaming websites where gaming videos or matches were being streamed online for people with a connection to watch.
+          Fast forward to modern days and there are millions of viewers online everyday watching gaming content.
 
         </p>
+
+        <h3>The idea</h3>
+        <p>
+          The idea of my artwork is to use the different maps from the game and to showoff some of the most amazing gameplay clips from the tournaments over the years. The user will be able select the map from
+          a dropdown menu and then it will display the map with different points of interests which are displayed by golden circles spread around the map. When the user clicks on a circle,
+           then it will display a memorable moment from CS:GO history with a heading and a video. <br></br><br></br>
+
+           Looking back at my own life and struggles that comes with getting involved and serious about esports, I feel that I can relate to the current pro players of the game by seeing their own
+           histories and backgrounds. I wanted to specifically inlcude some of my favourite players and community favourite players that we can all relate to. This way the artwork feels a bit personal
+           to me and others that may have been in my boat a couple years ago. Players stories are mostly available on youtube as free documentaries where they delve into their childhoods and struggles
+           to become the players they are today. Here are just a couple of players that I took great inspiration of for this artwork:
+        </p>
+        <iframe className="videos" width="560" height="315" src="https://www.youtube.com/embed/ORCLuPAuWZ0?si=Vz47uBT__o6p3Iqa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe className="videos" width="560" height="315" src="https://www.youtube.com/embed/HI--S6TQ4SI?si=3wXZCZyBWS1jFv9b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+        <p>
+        It is players like these whom I can greatly relate to who mostly inspired my artwork where I and others can look back at the golden days where life was all about the game. <br></br><br></br>
+        The Artwork itself is simple and is very easy to understand. Since my website is designed for gamers, it is likely that the user that visits would already know about CS:GO and how big the community and esports scene is.
+        Once the user has selected a map, each golden point of interest contrasts with the map background. This leads the players eye directly to any of them and the responsive design allows for the users to understand that they must click on one. 
+        </p>
+
+        <h3>Technical concern</h3>
+        <p>The main technical concern I have with this artwork is about the responsivness in regards of the popup window. As of now on a larger screen width of atleast 1920x1080, the popup window will appear next to the point of interest which is exactly how I wanted it to work.
+          However, the issue may come in on smaller devices where there is not much space. A possible solution to this may be to use media queries to move the popup window to a different location on smaller devices. </p>
+
       </section>
     </section>
   );

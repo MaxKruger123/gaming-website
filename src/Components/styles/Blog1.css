@@ -9,19 +9,19 @@
   
   body {
     width: 100vw;
-    height: 100vh;
+    height: 150vh;
   }
 
   .Blog1{
     width: 100vw;
-    height: 100vh;
+    height: 150vh;
     text-align: center;
     
   }
 
-  h1{
+  .Blog1 h1{
     margin-top: 0px;
-    
+    font-family: Amiko;
   }
 
   .flexContainer{

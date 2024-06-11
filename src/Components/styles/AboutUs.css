@@ -30,6 +30,17 @@
     padding: 20px;
     color: rgb(0, 0, 0);
   }
+
+  .aboutUsPage h1 {
+    color: rgb(0, 0, 0);
+    font-family: Amiko;
+  }
+
+  .aboutUsPage h2 {
+    color: rgb(255, 255, 255);
+    font-family: Amiko;
+  }
+  
   
   .logo {
     max-width: 250px;
@@ -102,10 +113,10 @@
     height: auto;
     object-fit: cover;
     border-radius: 8px;
-    animation: flipAnimation 2s infinite;
+    animation: flippAnimation 2s infinite;
   }
   
-  @keyframes flipAnimation {
+  @keyframes flippAnimation {
     0%, 100% {
       transform: rotateX(0);
     }

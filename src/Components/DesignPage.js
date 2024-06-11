@@ -3,7 +3,7 @@ import './styles/DesignPage.css'
 import HomeWireFrame from './styles/Images/NewHomePage.PNG'
 import HomeWireFrame2 from './styles/Images/NewHomePage2.PNG'
 import AboutUsWireFrame from './styles/Images/NewAboutUs.PNG'
-import TheoryWireFrame from './styles/Images/ThoeryPageWireFrame.PNG'
+import TheoryWireFrame from './styles/Images/NewTheoryPage.PNG'
 import DesignWireFrame from './styles/Images/NewDesignPage.PNG'
 
 

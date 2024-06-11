@@ -140,7 +140,7 @@ const TopContainer = () => {
             <div className='blog1'>
             <Link to="/blog1">
               <div className="overlay">              
-
+              <h3>JSX Basics!</h3>
               </div>
             </Link>            
 
@@ -149,7 +149,16 @@ const TopContainer = () => {
             <div className='blog2'>
             <Link to="/blog2">
               <div className="overlay">              
+              <h3>Academic Comeback</h3>
+              </div>
+            </Link>            
 
+            </div>
+
+            <div className='blog3'>
+            <Link to="/blog3">
+              <div className="overlay">              
+              <h3>The difficulties</h3>
               </div>
             </Link>            
 

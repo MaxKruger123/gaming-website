@@ -25,7 +25,7 @@ body, html {
   
 }
 
-h1 {
+.topContainer h1 {
   font-family: Amiko;
   font-size: 52px;
   margin-bottom: 1%;
@@ -57,6 +57,7 @@ h1 {
   width: 35%;
   transform: translate(-50%, 0);
   color: white;
+
 }
 
 .gallery {
@@ -148,7 +149,7 @@ h1 {
   align-content: center;
   align-items: center;
   justify-content: center;
-  height: 400vh;
+  height: 220vh;
   text-align: center;
   background-image: url('./Images/WhiteTextureBG.jpg'); 
   background-repeat: repeat; 
@@ -172,11 +173,12 @@ h1 {
   margin-top: 5%;
   color: black;
   text-decoration: underline;
+  font-family: Amiko;
 }
 
 .scrollOverlay h2{
   margin-top: 5%;
-  
+  font-family: Amiko;
   color: black;
 }
 
@@ -284,7 +286,7 @@ padding-bottom: 50px;
   display: flex;
   justify-content: space-around;
   padding: 20px;
-  width: 70%;
+  width: 100%;
   height: auto;
 }
 
@@ -292,7 +294,7 @@ padding-bottom: 50px;
   width: 400px;
   height: 300px;
   background-size: cover;
-  background-image: url('./Images/Balance.png');
+  background-image: url('./Images/JSXX.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
@@ -337,7 +339,7 @@ padding-bottom: 50px;
   width: 400px;
   height: 300px;
   background-size: cover;
-  background-image: url('./Images/Interactive.jpg');
+  background-image: url('./Images/Comback.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
@@ -358,6 +360,39 @@ padding-bottom: 50px;
   height: 10%;
  
   
+}
+
+.blog3{
+  width: 400px;
+  height: 300px;
+  background-size: cover;
+  background-image: url('./Images/Difficult.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  
+  transition: transform 0.3s ease-in-out, border-bottom 0.3s ease-in-out, border-left 0.3s ease-in-out;
+}
+
+.blog3:hover {
+  
+  transform: translateY(-20px);
+  
+}
+
+.blog3Image{
+  width: 10%;
+  height: 10%;
+ 
+  
+}
+
+.overlay h3{
+  color: white;
+  font-family: Amiko;
+  margin-top: 60%;
 }
 
 

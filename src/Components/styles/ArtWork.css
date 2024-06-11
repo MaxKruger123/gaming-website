@@ -11,6 +11,14 @@
   text-align: center;
   margin: 0;
   color: black;
+  font-family: Amiko;
+}
+
+.csgo-section h1 {
+  text-align: center;
+  margin: 0;
+  color: black;
+  font-family: Amiko;
 }
 
 .csgo-text {
@@ -51,6 +59,8 @@
   border-radius: 50%;
   cursor: pointer;
   transform: translate(-50%, -50%); /* Center the marker on the point */
+  animation: flipAnimation 2s infinite;
+  box-shadow: 0 0 15px 5px rgba(255, 196, 0, 0.986);
 }
 
 .marker-info {
@@ -79,4 +89,17 @@
   margin-top: 10px;
   width: 100%;
   height: auto;
+}
+
+.circle{
+  animation: flipAnimation 2s infinite;
+}
+
+@keyframes flipAnimation {
+  0%, 100% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1.1);
+  }
 }

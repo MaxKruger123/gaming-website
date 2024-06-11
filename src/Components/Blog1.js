@@ -1,13 +1,14 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import './styles/Blog1.css'
+import Vuk from './styles/Images/Vuk.jpg'
 
 const Blog1Page = () => {
     return (
 
     <section className="Blog1">
         
-        <h1>Reworking using balance</h1>
+        <h1>Week 3 Dev Blog</h1>
 
         <div className="flexContainer">
             <Link to="/#blogPosts">
@@ -16,21 +17,26 @@ const Blog1Page = () => {
         </div>
 
         <section className="blogText">
-            After the previous iteration of this website and the great feedback I recieved. I have decided to rework this entire site. 
-            But this time keeping certain aspects in mind such as design flows and balance. The homepage keeps to a simple design now and is intuitive and clear.
-            There are 3 rotating images that each get to the point of the websites theme. Balance is key on my Homepage. The 3 rotating images each have the main focus on the right hand side of the page
-            with a Heading and smaller text to the left. Since Humans naturally view things from left to right, I thought that this may be the correct way of going about it.
-             I then decided to get creative by using a scrollOverlay that scrolls upward when the user scrolls down.
-            This is also clearly indicated to the user on the homepage due to an new animated arrow, indicating to the user to scroll down. Once the user has scrolled down, they are at the point
-            of more content. <br></br><br></br>
-            
-            Due to the webpages theme concerning latest games news, the first content when scrolling down are new game trailers that are the current hot topic of the games industry.
-            The content here is all toward the center and is also consistent. This ensures the user focuses on the content and does not stray from it. The consistent formatting also sets up expectations
-            for the other pages on my site and how they may interact. I also wanted to ensure that there were more interactive elements when creating this site. For example, whe the user hovers 
-            over one of the game trailers, it will scale upward smoothly and have a glowing border. This makes it clear to the user where they are and also makes the user want to watch the trailer.<br></br><br></br>
+           <p>
+            Starting JSX at first was rather confusing to me. I struggles to understand the reasoning behind using javascript besides for basic functions outside of your regular html.
+            Up until this point we were using regular HTML and css and further creating external js files that we then imported into our HTML if needed. However, after using it for a week I feel as if
+            I am understanding the power behind it. There was a definaite learning curve behind exploring components, how they fit together like puzzle pieces, props and conditional rendering.
+            After using it for a week I feel more comfortable on the topic and technical side but I still have a single brewing question that I may also have the answer for. Why use a react app? 
 
-            The background of majority of my pages throughout the site stay the same and are consistent. The white textured background ensures the visibility of my text and headings.
-            
+            <br></br><br></br>
+
+            After some research I found that the component system I was introduced to invites the reuse of themselves in a variety of different ways. Furthermore, This saves time for developers since they do not have
+            to rewrite code, you can simply plug in the component and use it wherever and whenever you want. I found this quite useful as I further learned more and practiced using react. My first onfusion on react was the setup.
+            Using the cmd or Git Bash to start a react app and using the cmd to run, deploy or push commits was challenging at first but after some tampering and fails, I came to understand it.
+
+            <br></br><br></br>
+
+            In terms of interesting Net Artworks that I find interesting, the first one that comes to mind is Vuk Cosic's Raging Bull. This is a famed artwork for its creative use of ASCII code
+            which is computer language for 1's and 0's in order to create a artpiece. This is interesting to me because I have always enjoyed history of computers. What fascinates me is how humans even came to invent 
+            computers and how difficult it must have been to simply get a computer functioning using 1's and 0's. Here is an image of the artwork:
+           </p>
+
+           <img src= {Vuk} alt= "Image of Vuk's Raging bull net artpiece"/>
 
         </section>
       
