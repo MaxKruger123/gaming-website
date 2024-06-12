@@ -2,6 +2,7 @@ import React from 'react';
 import './styles/TheoryPage.css'
 import ArtWork from './styles/Images/ArtWorkk.jpg'
 import NetArtWork from './styles/Images/NetArtWork.jpg'
+import { Link } from 'react-router-dom';
 
 const TheoryPage = () => {
   return (
@@ -145,6 +146,11 @@ https://www.scielo.br/j/rbpi/a/3pnFKpXVxnqS4vs5jBPwJXv/?lang=en#:~:text=Drawing
         <p>The main technical concern I have with this artwork is about the responsivness in regards of the popup window. As of now on a larger screen width of atleast 1920x1080, the popup window will appear next to the point of interest which is exactly how I wanted it to work.
           However, the issue may come in on smaller devices where there is not much space. A possible solution to this may be to use media queries to move the popup window to a different location on smaller devices. </p>
 
+
+          <Link to="/artwork">      
+        <button className="aboutButton">Our ArtWork Page</button>
+              
+      </Link> 
       </section>
     </section>
   );

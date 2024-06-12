@@ -10,39 +10,51 @@ const TopContainer = () => {
 
   // Created 5s times to rotate between 3 images for landingm page
   useEffect(() => {
+
     const interval = setInterval(() => {
       const currentIndex = slides.findIndex(item => item === content); // finds index of current slide in the array
       setContent(slides[(currentIndex + 1) % slides.length]); // updates state variable 'content' to the next slide in array 
     }, 5000); // 5000 = 5s time interval
 
+    
     return () => clearInterval(interval); // clears interval of 5s to restart it and prevents memory leaks :D
+
   }, [content]);
 
   // Dynamically set top position of slides
   useEffect(() => {
+
     const handleScroll = () => { // handles the upward scrolling effect 
       const slideContainer = document.querySelector('.gallery'); // finds gallery
       const topContainer = document.querySelector('.topContainer'); //  finds topContainer
       const top = Math.max(window.pageYOffset - topContainer.offsetTop, 0); //finds the amount of distance scrolled past the .topContainer
       slideContainer.style.top = `${top}px`;
+
     };
 
     window.addEventListener('scroll', handleScroll); // connects the handleScroll function to the scroll event
 
     return () => {
+      
       window.removeEventListener('scroll', handleScroll); //removes listener
+    
     };
   }, []);
 
   // unused funtion
   const handleDotClick = (index) => {
+
     setContent(slides[index]);
+
   };
 
   //JSX
   return (
     <div className="mainContainer">
+      
       <section className="topContainer">
+
+
         <div className="gallery">
           
           {slides.map((item, i) => (
@@ -58,9 +70,13 @@ const TopContainer = () => {
             </div>
           ))}
         </div>
+
+
         <div className="scrollIndicator">
           <div className="arrow"></div>
         </div>
+      
+      
       </section>
 
       <div className="relativeContainer"></div>
@@ -167,9 +183,18 @@ const TopContainer = () => {
            
           </div>
 
+          <Link to="/about">      
+        <button className="aboutButton">Learn Abous Us</button>
+              
+      </Link> 
+
         </div>
 
+        
+
       </div>
+
+      
       
     </div>
   );

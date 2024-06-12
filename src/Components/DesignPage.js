@@ -5,6 +5,7 @@ import HomeWireFrame2 from './styles/Images/NewHomePage2.PNG'
 import AboutUsWireFrame from './styles/Images/NewAboutUs.PNG'
 import TheoryWireFrame from './styles/Images/NewTheoryPage.PNG'
 import DesignWireFrame from './styles/Images/NewDesignPage.PNG'
+import { Link } from 'react-router-dom';
 
 
 
@@ -93,6 +94,11 @@ const DesignPage = () => {
                     creates an simplistic feel but focuses on the text to the left. Then an animated arrow at the bottom of the page leads the user to scroll down. Throughout my pages I have also decided to use black and
                     white contract for visibility and readability.
                 </p>
+
+                <Link to="/theory">      
+        <button className="aboutButton">Our Theory Page</button>
+              
+      </Link> 
         </section>
 
     );

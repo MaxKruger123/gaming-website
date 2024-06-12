@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './styles/AboutUs.css'
 import Logoo from './styles/Images/Logo.png'
 import gif from './styles/Images/gaming-game-on.gif'
@@ -26,6 +27,10 @@ const AboutUsPage = () => {
 
         
         <SignUp />
+        <Link to="/design">      
+        <button className="aboutButton">Our Design Page</button>
+              
+      </Link> 
       
     </section>
 
